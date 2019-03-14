@@ -25,6 +25,7 @@ app.use('/', indexRouter);
 app.use('/myrankings', myrankingsRouter);
 app.use('/nowplaying', nowplayingRouter);
 app.use('/users', usersRouter);
+app.use('/about', aboutRouter);
 
 
 // catch 404 and forward to error handler
