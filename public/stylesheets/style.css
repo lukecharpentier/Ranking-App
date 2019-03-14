@@ -6,3 +6,24 @@ body {
 a {
   color: #00B7FF;
 }
+
+.centerMe {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.box {
+  /* width: 80%;
+  height: 300px; */
+  border:1px solid black;
+}
+
+.nobull {
+  list-style-type: none;
+}
