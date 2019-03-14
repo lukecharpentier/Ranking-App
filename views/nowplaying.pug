@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  <div class="row">
+    <div class="col-lg-12 text-center">
+    <h1 class="mt-5">Now Playing</h1>
+    <p class="lead">Welcome to #{title} </p>
+    ul
+      each movie in body
+        li.nobull= movie.title
+        li.nobull= movie.overview
+        -var link = "http://image.tmdb.org/t/p/w185"+movie.poster_path;
+        img(src=link)
